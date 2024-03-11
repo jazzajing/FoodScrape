@@ -35,7 +35,7 @@ app.get('/setToken', function(req, res) {
     xhr.open("POST", url);
 
     xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-    xhr.setRequestHeader("Authorization", "Basic Y2xpY2tub3JkZXItNTYzMTU0ZGI1ZWZiYmFkNDE2NjEwN2Y0M2MxMDEwMGExOTkxNzcxOTE4MzEwNTQyNDgwOjlFdXF2Z2tPS3Q4d0U5NmxXQ2lVTDRlOG91RE5Qc1Rla0E5VjdZS1U=");
+    xhr.setRequestHeader("Authorization", "[ENTER AUTH CODE HERE]");
 
     xhr.onreadystatechange = function () {
         if (xhr.readyState === 4) {
