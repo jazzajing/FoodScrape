@@ -1,0 +1,26 @@
+{
+  "name": "FoodScrape",
+  "description": "An extension that allows you to scrape webites and get nutritional information.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+	"service_worker": "background.js"
+  },
+  "options_page": "options.html",
+  "permissions": ["storage", "activeTab", "scripting", "*://localhost:8080/*"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "/images/chef_default_16.png",
+      "32": "/images/chef_default_32.png",
+      "48": "/images/chef_default_48.png",
+      "128": "/images/chef_default_128.png"
+    }
+  },
+  "icons": {
+    "16": "/images/chef_default_16.png",
+    "32": "/images/chef_default_32.png",
+    "48": "/images/chef_default_48.png",
+    "128": "/images/chef_default_128.png"
+  }
+}

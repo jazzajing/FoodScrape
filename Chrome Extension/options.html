@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+
+<head>
+<title>Extension Options</title>
+<meta name="description" content="A page to change extension settings">
+<link rel="stylesheet" href="options.css">
+</head>
+
+<body>
+
+<div id="welcome">
+	<h1 id="name">Welcome Back, </h1>
+	<h3>Saved Recipes </h3>
+</div>
+
+<div id="content">
+
+<div id="overlay">
+	<h1 id="recipeTitle"></h1>
+
+	<img id="recipePic" alt="recipe_picture">
+
+	<div class="timings">
+		<span id="prepOverlay"></span>
+		<br>
+		<span id="cookOverlay"></span>
+		<br>
+		<span id="totalOverlay"></span>
+		<br>
+		<span id="yield"></span>
+	</div>
+
+	<div>
+		<h3 class="list-title"><span id="ingredients-titleOverlay"></span>Ingredients</h3>
+		<ul id="ingredientsOverlay">
+
+		</ul>
+	</div>
+
+	<div>
+		<h3 class="list-title"><span id="method-titleOverlay"></span>Method</h3>
+		<ol id="methodOverlay">
+
+		</ol>
+	</div>
+
+	<div id="nutritionOverlay">
+		<h3 class="list-title">Nutritional Info</h3>
+		<table id="nutriTable" cellspacing="0" cellpadding="5">
+			<tr>
+				<th id="calories">Kcal</th>
+				<th id="fat">Fat</th>
+				<th id="carbs">Carbs</th>
+				<th id="sugars">Sugars</th>
+				<th id="fibre">Fibre</th>
+				<th id="protein">Protein</th>
+				<th id="sodium">Sodium</th>
+			</tr>
+
+		</table>
+	</div>
+	<button id="close">Close</button>
+</div>
+
+<template id="recipe-template">
+<div class="blog-box">
+	<h2 class="recipe-title"></h2>
+
+	<div class="recipe-info">
+		<strong><span id="servings" class="info"></span></strong>
+		<br>
+		<br>
+		<span id="prepTime" class="info"></span>
+		<br>
+		<span id="cookTime" class="info"></span>
+		<br>
+		<span id="totalTime" class="info"></span>
+	</div>
+	<br>
+	<div class="recipe-images">
+		<img src="">
+	</div>
+
+	<div>
+		<h3 class="list-title"><span id="ingredients-title"></span>Ingredients</h3>
+		<ul id="ingredients">
+
+		</ul>
+	</div>
+
+	<button class="view">View Recipe</button>
+	<button class="price">Get Pricing</button>
+
+</div>
+</template>
+
+</div>
+<script src="options.js"></script>
+
+</body>
+
+</html>

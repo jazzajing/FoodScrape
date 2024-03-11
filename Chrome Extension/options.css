@@ -1,0 +1,85 @@
+body{
+	background-color: rgba(250, 249, 217, 1.0);
+}
+
+#welcome{
+	font-family: monospace;
+	position:fixed;
+    overflow-y:scroll;
+    overflow-x:hidden;
+}
+
+#welcome h1 {
+	font-size: 2vw;
+}
+
+#welcome h3 {
+	font-size: 1vw;
+}
+
+#content{
+	border-spacing: 20px;
+}
+
+.blog-box{
+	position: relative;
+	top: 100px;
+	display: table-cell;
+	background-color: rgba(255, 255, 255, 1.0);
+	min-width: 300px;
+	max-width: 300px;
+	text-align: center;
+	padding: 10px;
+	border: 2px solid black;
+	border-radius: 25px;
+}
+
+.recipe-images img{
+	width: 150px;
+	border-radius: 15px;
+}
+
+.recipe-info{
+
+}
+
+.info{
+
+}
+
+.recipe-preview{
+
+}
+
+.recipe-title{
+
+}
+
+#ingredients{
+	list-style: none;
+	text-align: center;
+	padding: 0;
+}
+
+#overlay{
+	display: none;
+	position: absolute;
+	z-index: 100;
+	height: auto;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.8);
+	color:white;
+	text-align: center;
+}
+
+#recipePic{
+	margin:auto;
+}
+
+#ingredientsOverlay{
+	list-style: none;
+}
+
+#nutriTable{
+	margin: auto;
+}

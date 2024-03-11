@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <button id="getinfo">Click Me!</button>
+
+    <div id="content">
+    <div id="navigation">
+    <ul>
+      <li><a class="nav-links" href="#ingredients-title">Ingredients</a></li>
+      <li><a class="nav-links" href="#method-title">Method</a></li>
+      <li><a class="nav-links" href="#nutrition">Nutrition</a></li>
+      <li><a class="nav-links" href="#save-recipe">Save Recipe</a></li>
+      <li style="float:right; margin-right: 4px; border-right: none; text-align: center;"><a id="account" href="">Account</a></li>
+    </ul>
+    </div>
+    <h1 id="recipeTitle"></h1>
+
+    <img id="recipePic" alt="recipe_picture">
+
+    <div class="timings">
+    <span id="prepTime"></span>
+    <br>
+    <span id="cookTime"></span>
+    <br>
+    <span id="totalTime"></span>
+    <br>
+    <span id="yield"></span>
+    </div>
+
+    <div>
+      <h3 class="list-title"><span id="ingredients-title"></span>Ingredients</h3>
+      <ul id="ingredients">
+        
+      </ul>
+    </div>
+
+    <div>
+      <h3 class="list-title"><span id="method-title"></span>Method</h3>
+      <ol id="method">
+        
+      </ol>
+    </div>
+
+    <div id="nutrition">
+      <h3 class="list-title">Nutritional Info</h3>
+      <table id="nutriTable" cellspacing="0" cellpadding="5">
+        <tr>
+          <th id="calories">Kcal</th>
+          <th id="fat">Fat</th>
+          <th id="carbs">Carbs</th>
+          <th id="sugars">Sugars</th>
+          <th id="fibre">Fibre</th>
+          <th id="protein">Protein</th>
+          <th id="sodium">Sodium</th>
+        </tr>
+        
+      </table>
+    </div>
+    <button id="save-recipe">Save Recipe</button>
+    </div>
+  <script src="popup.js"></script>
+  </body>
+</html>
