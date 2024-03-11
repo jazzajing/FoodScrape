@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chrome Browser Extension</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1><%= title%></h1>
+    <table id="results">
+        <tr>
+            <th><strong>Product</strong></th>
+            <th><strong>Amount</strong></th>
+            <th><strong>Recipe Price</strong></th>
+            <th><strong>Ingredient Price</strong></th>
+        </tr>
+        <% for(let i in products) {%>
+        <tr>
+            <th><%= products[i].name%></th>
+            <th><%= products[i].amount%></th>
+            <th><%= products[i].recipePrice%></th>
+            <th><%= products[i].ingredientPrice%></th>
+        </tr>
+        <%}%>
+    </table>
+</body>
+</html>
